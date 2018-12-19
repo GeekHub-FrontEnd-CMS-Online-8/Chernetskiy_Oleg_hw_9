@@ -1,0 +1,126 @@
+.sec7__contacts
+  display: flex
+  justify-content: center
+  flex-wrap: wrap
+  max-width: 1400px
+  margin: 0 auto
+
+.sec7__contacts__map iframe
+  height: 450px
+  width: 700px
+
+.sec7__contacts__form
+  background: #28303e url(../img/cover3.png) 50% 50% no-repeat
+  background-size: cover
+  height: 450px
+  width: 700px
+  display: flex
+  justify-content: center
+
+.sec7__contacts__form__box
+  display: flex
+  flex-direction: column
+  justify-content: center
+
+.sec7__contacts__form__box__item label
+  padding: 5px 0
+
+.sec7__contacts__form__box__item
+  display: flex
+  justify-content: space-between
+  width: 380px
+
+.sec7__contacts__form__box__item p
+  color: #e8e8e8
+  font-family: 'Montserrat', sans-serif
+  font-size: 12px
+  font-weight: 500
+  padding-top: 18px
+
+.name
+  padding-left: 15px
+  width: 300px
+  height: 35px
+  border-radius: 2px
+  border: 1px solid #f2f2f2
+  background-color: transparent
+
+.message
+  padding-left: 15px
+  padding-top: 15px
+  width: 300px
+  height: 135px
+  border-radius: 2px
+  border: 1px solid #f2f2f2
+  background-color: transparent
+  resize: none
+
+.but_send
+  width: 90px
+  height: 35px
+  color: #e8e8e8
+  font-family: 'Montserrat', sans-serif
+  font-size: 12px
+  font-weight: 500
+  background: transparent
+  border: 1px solid #f2f2f2
+  outline: none
+
+  &:hover
+    border: 1px solid #485563
+    color: #485563
+
+.sec7__contacts__form__btn
+  display: flex
+  justify-content: flex-end
+  padding: 5px 0
+
+@media screen and (max-width: 768px)
+  .sec7__contacts__map iframe
+    height: 450px
+    width: 768px
+
+  .sec7__contacts__form
+    width: 768px
+
+@media screen and (max-width: 425px)
+  .sec7__contacts__map iframe
+    height: 450px
+    width: 425px
+
+  .sec7__contacts__form
+    width: 425px
+
+@media screen and (max-width: 375px)
+  .sec7__contacts__map iframe
+    height: 450px
+    width: 375px
+
+  .sec7__contacts__form
+    width: 375px
+
+  .sec7__contacts__form__box__item
+    width: 260px
+
+  .name
+    width: 180px
+
+  .message
+    width: 180px
+
+@media screen and (max-width: 320px)
+  .sec7__contacts__map iframe
+    height: 450px
+    width: 320px
+
+  .sec7__contacts__form
+    width: 320px
+
+  .sec7__contacts__form__box__item
+    width: 250px
+
+  .name
+    width: 180px
+
+  .message
+    width: 180px
